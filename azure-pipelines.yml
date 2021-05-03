@@ -10,8 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: Maven@3
-  inputs:
 - task: CmdLine@2
   inputs:
     script: |
